@@ -4,16 +4,16 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(29, 80%, 58%);
-  --first-color-light: hsl(29, 80%, 70%);
-  --black-color: hsl(29, 16%, 10%);
+  --first-color: #2D8078;
+  --first-color-light: #21b6a7;
+  --black-color: #1C404C;
   --text-color: hsl(29, 8%, 65%);
   --body-color: hsl(29, 100%, 99%);
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --h3-font-size: 1.125rem;
-  --smaller-font-size: .75rem;
+  --smaller-font-size: 0.75rem;
 }
 
 /*=============== BASE ===============*/
@@ -135,7 +135,12 @@ img {
   padding: 6px;
   border-radius: 50%;
 }
-.card__social-text, .card__social-list {
+.card__social-link img {
+  width: 20px;
+  height: 20px;
+}
+.card__social-text,
+.card__social-list {
   position: absolute;
   top: 0;
   left: 0;
@@ -157,10 +162,12 @@ img {
 }
 
 @keyframes up-animation {
-  0%, 100% {
+  0%,
+  100% {
     transform: rotate(0);
   }
-  50%, 60% {
+  50%,
+  60% {
     transform: rotate(-3deg);
   }
   88% {
@@ -173,10 +180,12 @@ img {
 }
 
 @keyframes down-animation {
-  0%, 100% {
+  0%,
+  100% {
     transform: rotate(0);
   }
-  50%, 60% {
+  50%,
+  60% {
     transform: rotate(6deg);
   }
   88% {
