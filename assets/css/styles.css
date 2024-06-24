@@ -4,11 +4,11 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #2D8078;
-  --first-color-light: #21b6a7;
+  --first-color: #B2D8E9;
+  --first-color-light: #1C404C;
   --black-color: #1C404C;
   --text-color: hsl(29, 8%, 65%);
-  --body-color: hsl(29, 100%, 99%);
+  --body-color: #3A6B8B;
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
@@ -89,7 +89,7 @@ img {
   padding: 0.75rem;
   border-radius: 3rem;
   text-align: initial;
-  box-shadow: 0 8px 24px hsla(29, 75%, 56%, 0.3);
+  box-shadow: 0 8px 24px #1C404C;
   position: absolute;
   left: 0;
   right: 0;
@@ -130,7 +130,7 @@ img {
 .card__social-link {
   display: inline-flex;
   background-color: var(--first-color-light);
-  color: var(--black-color);
+  color: #B2D8E9;
   font-size: 1.25rem;
   padding: 6px;
   border-radius: 50%;
